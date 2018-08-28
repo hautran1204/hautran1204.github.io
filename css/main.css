@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 28px 28px 0;
+  background-color: #dbdbdb; }
+
+html {
+  font-size: 16px; }
+
+div {
+  box-sizing: border-box; }
+
+.navbar {
+  background-color: #fff; }
+  .navbar .navbar-brand {
+    font-size: 40px;
+    color: #635c5c; }
+  .navbar .navbar-nav .nav-item .nav-link {
+    color: #635c5c; }
+    .navbar .navbar-nav .nav-item .nav-link:hover {
+      color: #29afc6; }
+    .navbar .navbar-nav .nav-item .nav-link.active {
+      color: #29afc6; }
+
+header {
+  background-color: #fff;
+  padding: 15px 0 55px 0; }
+  header .image-header img {
+    width: 360px;
+    height: auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 0 0 0 9px #f3f3f3;
+    margin-right: -163px;
+    z-index: 2;
+    position: relative; }
+  header .image-header .icons-head {
+    margin-right: -163px; }
+    header .image-header .icons-head a {
+      color: #635c5c; }
+    header .image-header .icons-head .icon-style {
+      width: 40px;
+      height: 40px;
+      background-color: #f3f3f3;
+      border-radius: 50%;
+      font-size: 20px;
+      line-height: 40px;
+      box-shadow: 2px 2px 5px 0 #635c5c99;
+      margin: 43px 11px 0;
+      transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s; }
+      header .image-header .icons-head .icon-style:hover {
+        color: #fff;
+        background-color: #29afc6; }
+  header .text-header {
+    margin-top: 80px; }
+    header .text-header h2 {
+      color: #635c5c;
+      font-size: 37px;
+      line-height: 54px;
+      font-weight: initial;
+      background: #f3f3f3;
+      padding: 20px 49px;
+      /* margin-left: -65px; */
+      border-radius: 0px 108px 108px 0;
+      width: 95%;
+      margin-left: -65px; }
+      header .text-header h2 .color-name {
+        color: #29afc6; }
+
+#se-1 {
+  background-color: #f3f3f3;
+  padding: 85px 0; }
+  #se-1 .head-section {
+    position: relative;
+    padding-bottom: 85px; }
+    #se-1 .head-section h2 {
+      font-size: 30px;
+      color: #404040; }
+      #se-1 .head-section h2::before {
+        content: "";
+        position: absolute;
+        top: 38px;
+        width: 41px;
+        height: 3px;
+        background-color: #404040; }
+  #se-1 h3 {
+    color: #635c5c; }
+  #se-1 ul li p {
+    color: #635c5c;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 700;
+    min-width: 99px;
+    display: inline-block;
+    margin: 0; }
+    #se-1 ul li p span {
+      float: right; }
+  #se-1 ul li span {
+    margin-left: 5px; }
+
+/*# sourceMappingURL=main.css.map */
