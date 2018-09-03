@@ -1,0 +1,21 @@
+.myCarousel{
+    .carousel-caption{
+        bottom: unset;
+        right: unset;
+        top: $mg-5;
+        left: $pd-5;
+        text-align: left;
+        animation: fadeIn 1s forwards 0s linear;
+        .line{
+            width: 9%;
+            height: 2px;
+            background-color: $color-white;
+            margin-bottom: $mg-2;
+        }
+        h1{
+            @include text($color-white, $fs-3, $fw-normal);
+            font-family: 'Times New Roman', Times, serif;
+            margin: 15px 0;
+        }
+    }
+}

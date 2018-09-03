@@ -1,0 +1,62 @@
+.footer{
+    background-color: $color-black;
+    .footer-1{
+        padding: 0 30px;
+        .footer-1__item{
+            padding: 0 2px;
+            .footer-1__title{
+                font-family: 'Times New Roman', Times, serif;
+                color: $color-white;
+            }
+            hr{
+                background-color: $color-grey;
+            }
+            ul{
+                a{
+                    color: $color-grey;
+                    font-size: 13px;
+                    text-decoration: none;
+                    &:hover{
+                        color: $color-blue;
+                    }
+                }
+            }
+        }
+    }
+    .footer-2{
+        padding: 0 30px;
+        .footer-2__title{
+            font-family: 'Times New Roman', Times, serif;
+            color: $color-white;
+        }
+        hr{
+            background-color: $color-grey;
+        }
+        p{
+            color: $color-grey;
+        }
+        ul{
+            li{
+                padding: 0  40px 0 0;
+                a{
+                    font-size: 30px;
+                    color: $color-grey;
+                    &:hover{
+                        color: $color-blue;
+                    }
+                }
+            }
+            
+        }
+    }
+    .footer-3{
+        hr{
+            background-color: $color-grey;
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    
+}

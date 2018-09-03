@@ -1,0 +1,51 @@
+.cars{
+  background-color: $color-black;
+  padding-bottom: 50px;
+  .car_owl{
+    width: 90%;
+    margin: 0 auto;
+  }
+  position: relative;
+  .owl-next{
+    span{
+      font-size: 80px;
+      position: absolute;
+      top: 0px;
+      right: -20px;
+    }
+  }
+  .owl-prev{
+    span{
+      font-size: 80px;
+      position: absolute;
+      top: 0px;
+      left: -20px;
+    }
+  }
+  .item{
+    p{
+      text-align: center;
+      color: $color-white;
+    }
+  }
+  .owl-theme{
+    .owl-dots{
+      .owl-dot{
+        span{
+          width: 60px;
+          height: 2.5px;
+          border-radius: 0        ;
+          -webkit-border-radius: 0        ;
+          -moz-border-radius: 0        ;
+          -ms-border-radius: 0        ;
+          -o-border-radius: 0        ;
+        }
+      } 
+      .owl-dot.active{
+        span{
+          background-color: $color-blue;
+        }
+      }
+    } 
+  }
+}

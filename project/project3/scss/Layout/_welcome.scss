@@ -1,0 +1,18 @@
+.welcome{
+  background-color: $color-white;
+  .welcome__title{
+    @include text($color-grey-dark, $fs-4, $fw-normal);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .welcome__p{
+    @include text($color-black, $fs-1, $fw-normal);
+    font-family: 'Times New Roman', Times, serif;
+    margin: $mg-2 0;
+  }
+  .line{
+    width: 8%;
+    height: 2px;
+    background-color: $color-dark;
+    margin: $mg-4 0;
+  }
+}

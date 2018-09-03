@@ -1,0 +1,15 @@
+.btn--black{
+    @include button($color-grey, $color-grey-dark, 0px, $color-white, $color-grey-dark);
+    padding: 3px 15px;
+}
+.btn--blue{
+    @include button($color-white, $color-blue, 40px, $color-white, $color-white);
+    padding: 5px 20px;
+    font-size: $fs-2;
+}
+.btn--transparent{
+    @include button($color-white, transparent, 40px, $color-black, $color-white);
+    padding: 5px 20px;
+    font-size: $fs-2;
+    border: 1px solid $color-white;
+}

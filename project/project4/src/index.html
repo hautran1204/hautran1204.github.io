@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ford</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- my style -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <!-- begin header -->
+    <header class="header fixed-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-white navbar--config">
+            <a class="navbar-brand" href="#">
+                <span class="navbar-brand__logo"></span>
+                <span class="navbar-brand__copy">Go Futher</span>
+            </a>
+            <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse  navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav navbar-nav--left">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="dropdown">Vehicles
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Finance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Owner</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav navbar-nav--right ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Locate a Dealer</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-user-circle"></i>
+                            <span>Sign in</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-globe-americas"></i>
+                            <span>English</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- end header -->
+    <!-- begin vehicle -->
+    <!-- <section id="vehicle-dropdown">
+        <section id="dropdown_content">
+            <nav class="dropdown_navbar py-4 text-center">
+                <ul class="list-unstyled list-inline m-0">
+                    <li class="list-inline-item mx-3"><a href="">Cars</a></li>
+                    <li class="list-inline-item mx-3"><a href="">SUVs & Crossovers</a></li>
+                    <li class="list-inline-item mx-3"><a href="">Trucks & Vans</a></li>
+                    <li class="list-inline-item mx-3"><a href="">Hybrids & EVs</a></li>
+                    <li class="list-inline-item mx-3"><a href="">Commercial Vehicles</a></li>
+                </ul>
+            </nav>
+        </section>
+    </section> -->
+    <!-- end vehicle -->
+    <!-- begin carousel -->
+    <div id="carouselId" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselId" data-slide-to="1"></li>
+            <li data-target="#carouselId" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img src="img/cq5dam.web.1280.1280.jpeg" alt="First slide">
+                <div class="carousel-caption">
+                    <h1>TOWS MORE. HAULS MORE. SO YOU CAN DO MORE.</h1>
+                    <p>2018 F-150</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/cq5dam.web.2160.2160 (1).jpeg" alt="Second slide">
+                <div class="carousel-caption">
+                    <h1>TOWS MORE. HAULS MORE. SO YOU CAN DO MORE.</h1>
+                    <p>2018 F-150</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/cq5dam.web.2160.2160 (2).jpeg" alt="Third slide">
+                <div class="carousel-caption">
+                    <h1>TOWS MORE. HAULS MORE. SO YOU CAN DO MORE.</h1>
+                    <p>2018 F-150</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+    <!-- end carousel -->
+    <!-- begin vehicles -->
+    <div class="vehicle">
+        <picture>
+            <img class="vehicle__background" src="img/backround.jpeg" alt="">
+        </picture>
+        <div class="vehicle__content text-center">
+            <h1>Something for Everyone</h1>
+            <p>See our full lineup of vehicles and find the one that best fits you.</p>
+            <a class="vehicle__button text-white">
+                <span>All Vehicle</span>
+            </a>
+        </div>
+    </div>
+    <!-- end vehicles -->
+    <!-- begin deal -->
+    <div class="deal">
+        <img class="deal__image" src="img/background2.jpeg" alt="">
+        <div class="deal__content text-center text-white">
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, reprehenderit.</p>
+        </div>
+    </div>
+    <!-- end deal -->
+    <!-- begin component06 -->
+    <div id="component06">
+        <div class="content text-center">
+            <h1 class="text-white">Make it Yours</h1>
+            <a class="d-block mt-4 py-3 px-6 text-decoration-none text-white content__button">Build & Price</a>
+        </div>
+    </div>
+    <!-- end component06 -->
+    <!-- begin component07 -->
+    <div id="component07" class="d-flex flex-wrap align-items-center">
+        <div class="component__item01 text-center">
+            <h2 class="">What's Happening at Ford</h2>
+            <h3>Stories and conversations featuring people and the Fords they love.</h3>
+        </div>
+        <div class="component__item02 item">
+            <img src="img/item1.jpeg" alt="">
+            <div class="item__footer">
+                <span>Read more</span>
+                <i class="fas fa-angle-right"></i>
+            </div>
+        </div>
+        <div class="component__item03 item">
+            <img src="img/item2.jpeg" alt="">
+            <div class="item__footer">
+                <span>Read more</span>
+                <i class="fas fa-angle-right"></i>
+            </div>
+        </div>
+        <div class="component__items d-flex flex-wrap">
+            <div class="component__item05 item">
+                <img src="img/item3.jpeg" alt="">
+                <div class="item__footer">
+                    <span>Read more</span>
+                    <i class="fas fa-angle-right"></i>
+                </div>
+            </div>
+            <div class="component__item06 item">
+                <img src="img/item4.jpeg" alt="">
+                <div class="item__footer">
+                    <span>Read more</span>
+                    <i class="fas fa-angle-right"></i>
+                </div>
+
+            </div>
+            <div class="component__item07 item">
+                <img src="img/item5.jpeg" alt="">
+                <div class="item__footer">
+                    <span>Read more</span>
+                    <i class="fas fa-angle-right"></i>
+                </div>
+
+            </div>
+            <div class="component__item08 item">
+                <img src="img/item6.jpeg" alt="">
+                <div class="item__footer">
+                    <span>Read more</span>
+                    <i class="fas fa-angle-right"></i>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end component07 -->
+    <!-- begin footer -->
+    <footer id="footer">
+        <div class="footer-1 d-flex justify-content-between px-5 py-4">
+            <form action="#">
+                <div class="form-group">
+                    <span class="search-submit"><i class="fa fa-search"></i></span>
+                    <input type="search" name="search" placeholder="Search">
+                </div>
+            </form>
+            <div class="footer-1__popular d-flex align-items-center">
+                <span class="d-block text-white mr-3">Popular</span>
+                <ul class="list-inline m-0">
+                    <li class="list-inline-item"><a href="">Focus</a></li>
+
+                    <li class="list-inline-item"><a href="">Fiesta</a></li>
+
+                    <li class="list-inline-item"><a href="">Mustang</a></li>
+
+                    <li class="list-inline-item"><a href="">F-150</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-2 container-fluid">
+            <div class="footer-2__main mx-auto py-5">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h6 class="text-white">All vehicles</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Cars</a></li>
+                                    <li><a href="#">SUVs & Crossovers</a></li>
+                                    <li><a href="#">Trucks & Vans</a></li>
+                                    <li><a href="#">Hybrids & EVs</a></li>
+                                    <li><a href="#">Hybrids & EVs</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h6 class="text-white">Shopping Tools</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Cars</a></li>
+                                    <li><a href="#">SUVs & Crossovers</a></li>
+                                    <li><a href="#">Trucks & Vans</a></li>
+                                    <li><a href="#">Hybrids & EVs</a></li>
+                                    <li><a href="#">Hybrids & EVs</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h6 class="text-white">Finance</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Cars</a></li>
+                                    <li><a href="#">SUVs & Crossovers</a></li>
+                                    <li><a href="#">Trucks & Vans</a></li>
+                                    <li><a href="#">Hybrids & EVs</a></li>
+                                    <li><a href="#">Hybrids & EVs</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <h6 class="text-white">Owner</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Cars</a></li>
+                                    <li><a href="#">SUVs & Crossovers</a></li>
+                                    <li><a href="#">Trucks & Vans</a></li>
+                                    <li><a href="#">Hybrids & EVs</a></li>
+                                    <li><a href="#">Hybrids & EVs</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <h6 class="text-white">Experience Ford</h6>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Cars</a></li>
+                                    <li><a href="#">SUVs & Crossovers</a></li>
+                                    <li><a href="#">Trucks & Vans</a></li>
+                                    <li><a href="#">Hybrids & EVs</a></li>
+                                    <li><a href="#">Hybrids & EVs</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-3 container-fluid">
+            <div class="row px-5 py-4">
+                <div class="col-md-6">
+                    <div class="social-link d-flex align-items-center">
+                        <span class="text-white pr-4">Follow Ford</span>
+                        <ul class="list-inline m-0">
+                            <li class="list-inline-item"><a href="#" class="facebook-icon"></a></li>
+                            <li class="list-inline-item"><a href="#" class="twitter-icon"></a></li>
+                            <li class="list-inline-item"><a href="#" class="youtube-icon"></a></li>
+                            <li class="list-inline-item"><a href="#" class="instagram-icon"></a></li>
+                            <li class="list-inline-item"><a href="#" class="fs-icon"></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="get-update">
+                        <ul class="list-inline">
+                            <li class="list-inline-item pr-4">
+                                <a href="#">
+                                    <span class="update-icon text-white"><i class="fa fa-envelope"></i></span>
+                                    <span class="update-text">Get Updates</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <span class="update-icon text-white"><i class="fa fa-comments"></i></span>
+                                    <span class="update-text">Share your thoughts about Ford.com</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+
+    <!-- js -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
